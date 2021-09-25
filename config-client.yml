@@ -1,2 +1,1 @@
-app:
- message: This is for Spring cloud config message.
+message: This is for Spring cloud config message.
