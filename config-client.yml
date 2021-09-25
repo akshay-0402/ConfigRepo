@@ -1,2 +1,3 @@
 app:
  message: This is for Spring cloud config message.
+ key: this is key
