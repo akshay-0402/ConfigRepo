@@ -1,0 +1,3 @@
+app:
+ message: This is one message................for prod environment
+ key: this is key................for prod environment
