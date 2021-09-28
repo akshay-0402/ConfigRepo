@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  application:    name: CLOUD_CONFIG_SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/akshay-0402/ConfigRepo.git
+          clone-on-start: true
+          default-label: main        bootstrap: true
