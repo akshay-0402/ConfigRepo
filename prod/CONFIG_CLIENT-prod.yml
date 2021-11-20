@@ -1,3 +1,6 @@
 app:
  message: This is one message from prod folder
  key: this is key from prod folder
+ sub-app:
+  sub-message: This is sub message which is for test case
+  sub-key: This is sub-key under app/sub-app for testing
