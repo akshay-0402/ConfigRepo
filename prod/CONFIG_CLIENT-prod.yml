@@ -1,0 +1,3 @@
+app:
+ message: This is one message from prod folder
+ key: this is key from prod folder
