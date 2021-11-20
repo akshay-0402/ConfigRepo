@@ -1,3 +1,10 @@
 app:
  message: THIS IS MESSAGE VALUE which is from CONFIG_CLIENT/dev/config-client-dev.ymlakjsfd;jas;fj;lkjasfd;lkj;lkasfjd;kljas;fkdlj;lkjas;klj;klj;kljlk;j
  key: this is key which is from CONFIG_CLIENT/dev/config-client-dev===================================================
+ subApp:
+  subMessage: this is sub message inside CONFIG-CLIENT/dev/CONFIG_CLIENT-dev.yml
+  subKey: This is sub key value inside CONFIG-CLIENT/dev/CONFIG_CLIENT-dev.yml
+
+anotherApp:
+ anotherAppmessage: this is another app message key value
+ anotherAppKey: this is another app key value
