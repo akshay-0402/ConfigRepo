@@ -1,3 +1,3 @@
 app:
- message: This is message value from CONFIG_CLIENT/prod/config-client.prod.yml file..................................prod
- key: this is key value from CONFIG_CLIENT/prod/config-client.prod.yml file..........................................prod
+ message: This is message value from CONFIG_CLIENT/prod/config-client.prod.yml file..................................prod from {git repo}
+ key: this is key value from CONFIG_CLIENT/prod/config-client.prod.yml file..........................................prod from {git repo}
