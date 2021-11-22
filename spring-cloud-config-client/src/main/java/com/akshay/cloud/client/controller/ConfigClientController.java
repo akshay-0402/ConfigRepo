@@ -21,7 +21,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.akshay.cloud.client.config.AnotherConfiguration;
 import com.akshay.cloud.client.config.ConfigClientPropertiesConfig;
+import com.akshay.cloud.client.config.ConfigClientPropertiesConfig.SubApp;
 
 @RestController
 public class ConfigClientController {
@@ -29,8 +31,26 @@ public class ConfigClientController {
 	@Autowired
 	ConfigClientPropertiesConfig propertiesConfig;
 	
+	@Autowired
+	AnotherConfiguration anotherConfig;
+	
 	@GetMapping("/getMessage")
 	public String getValue() {
-		return propertiesConfig.getMessage() + " _" + propertiesConfig.getKey();
+		System.out.println(propertiesConfig.getSubApp().toString());
+		SubApp subApp = propertiesConfig.getSubApp();
+		
+		StringBuilder builder = new StringBuilder();
+		builder.append(propertiesConfig.getKey());
+		builder.append("_______");
+		builder.append(propertiesConfig.getMessage());
+		builder.append("_______");
+		builder.append(subApp.getSubKey());
+		builder.append("_______");
+		builder.append(subApp.getSubMessage());
+		builder.append("_______");
+		builder.append(anotherConfig.getAnotherAppKey());
+		builder.append("_______");
+		builder.append(anotherConfig.getAnotherAppmessage());
+		return builder.toString();
 	}
 }

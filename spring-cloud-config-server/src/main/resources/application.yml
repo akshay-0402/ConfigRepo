@@ -8,4 +8,6 @@ spring:
         git:
           uri: https://github.com/akshay-0402/ConfigRepo.git
           clone-on-start: true
-          default-label: main        bootstrap: true
+          default-label: main
+          search-paths:
+          - '{application}/{profile}'        bootstrap: true
