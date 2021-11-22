@@ -1,0 +1,10 @@
+app:
+ message: shhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ key: suuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+ subApp: 
+  subMessage: this is sub message
+  subKey: this is sub key
+
+another-app: 
+ anotherAppmessage: this is from another app message
+ anotherAppKey: This is from another app key
