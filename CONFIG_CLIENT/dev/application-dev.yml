@@ -5,6 +5,6 @@ app:
   subMessage: this is sub message
   subKey: this is sub key
 
-anotherApp: 
+another-app: 
  anotherAppmessage: this is from another app message
  anotherAppKey: This is from another app key
