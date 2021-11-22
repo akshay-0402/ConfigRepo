@@ -1,3 +1,6 @@
 app:
  message: shhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
  key: suuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+ subApp: 
+  subMessage: this is sub message
+  subKey: this is sub key
