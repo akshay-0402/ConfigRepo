@@ -18,6 +18,7 @@ public class ConfigClientPropertiesConfig {
 	public static class SubApp {
 		private String subMessage;
 		private String subKey;
+		private String subTotalMessage;
 
 		public String getSubMessage() {
 			return subMessage;
@@ -31,9 +32,16 @@ public class ConfigClientPropertiesConfig {
 		public void setSubKey(String subKey) {
 			this.subKey = subKey;
 		}
+		public String getSubTotalMessage() {
+			return subTotalMessage;
+		}
+		public void setSubTotalMessage(String subTotalMessage) {
+			this.subTotalMessage = subTotalMessage;
+		}
 		@Override
 		public String toString() {
-			return "SubApp [subMessage=" + subMessage + ", subKey=" + subKey + "]";
+			return "SubApp [subMessage=" + subMessage + ", subKey=" + subKey + ", subTotalMessage=" + subTotalMessage
+					+ "]";
 		}
 	}
 

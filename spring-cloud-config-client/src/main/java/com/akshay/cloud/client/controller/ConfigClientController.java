@@ -48,6 +48,8 @@ public class ConfigClientController {
 		builder.append("_______");
 		builder.append(subApp.getSubMessage());
 		builder.append("_______");
+		builder.append(subApp.getSubTotalMessage());
+		builder.append("________");
 		builder.append(anotherConfig.getAnotherAppKey());
 		builder.append("_______");
 		builder.append(anotherConfig.getAnotherAppmessage());
