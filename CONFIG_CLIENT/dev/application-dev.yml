@@ -4,6 +4,7 @@ app:
  subApp: 
   subMessage: this is sub message
   subKey: this is sub key
+  subTotalMessage: ${app.key} ${app.message} this is total message with place holders
 
 another-app: 
  anotherAppmessage: this is from another app message
